@@ -56,7 +56,7 @@ with open(mkfile_path, "r") as mkfile:
 
 
     chapters = checklist_chapters()
-    mkdocs_content["nav"].append({"": [{"Checklist": "checklist/checklist.md"}]})
+    mkdocs_content["nav"].append({"Checklist": "checklist/checklist.md"})
     chapters_sections = []
 
     # for each chapter
@@ -82,10 +82,10 @@ with open(mkfile_path, "r") as mkfile:
                     title = content.split("\n")[0].replace("# ", "")
                     mkdoc_chapter_obj.append({title: f'checklist/{file}/{c_file}'})
 
-        chapters_sections.append({chapter: mkdoc_chapter_obj})
-    mkdocs_content["nav"].append({"Sections": chapters_sections})
+
+        mkdocs_content["nav"].append({chapter: mkdoc_chapter_obj})
 
 with open(mkfile_path, "w") as mkfile:
-    yaml.dump(mkdocs_content, mkfile, default_flow_style=False, indent=2,sort_keys=False,  # Keeps keys in original order
+    yaml.dump(mkdocs_content, mkfile,  sort_keys=False,  # Keeps keys in original order
         allow_unicode=True)
 

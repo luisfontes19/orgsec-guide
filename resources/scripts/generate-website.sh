@@ -2,4 +2,4 @@
 
 SCRIPT_DIR=$(dirname "$0")
 chmod +x $SCRIPT_DIR/nicebook_prepare_chapters.py
-mkdocs gh-deploy -d output/site -f resources/mkdocs.yml
+mkdocs gh-deploy -d output/site -f resources/mkdocs.yml --force

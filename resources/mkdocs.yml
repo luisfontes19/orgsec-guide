@@ -1,112 +1,129 @@
-docs_dir: ../src
-markdown_extensions:
-- admonition
-- def_list
-- pymdownx.tasklist:
-    clickable_checkbox: true
-    custom_checkbox: true
-nav:
-- Home: README.md
-- Using This Guide: 01-using-this-guide.md
-- The Security Team Mindset: 02-mindset.md
-- Extra Resources: 03-extra-resources.md
-- ? ''
-  : - Checklist: checklist/checklist.md
-- Sections:
-  - Artificial Intelligence:
-    - Home: checklist/ai/README.md
-    - Agents: checklist/ai/agents.md
-    - MCP Servers: checklist/ai/mcp_servers.md
-  - DevSecOps:
-    - Home: checklist/devsecops/README.md
-    - Container Scanning: checklist/devsecops/container-scanning.md
-    - Dast Scans: checklist/devsecops/dast-scans.md
-    - Sast Scans: checklist/devsecops/sast-scans.md
-    - SBOMs: checklist/devsecops/sboms.md
-    - SCA Scans: checklist/devsecops/sca-scans.md
-    - Secrets Scans: checklist/devsecops/secrets-scans.md
-    - Secure Deployments: checklist/devsecops/secure-deployments.md
-    - Secure the SCM Platform: checklist/devsecops/secure-the-scm-platform.md
-  - Endpoint Security:
-    - Home: checklist/endpoint-security/README.md
-    - Endpoint Detection And Response (EDR): checklist/endpoint-security/endpoint-detection-response.md
-    - Mobile Device Management (MDM): checklist/endpoint-security/mdm.md
-    - Phishing Strategy: checklist/endpoint-security/phishing-strategy.md
-  - GRC:
-    - Home: checklist/grc/README.md
-    - Asset Inventory: checklist/grc/asset-inventory.md
-    - Compliance And Certifications: checklist/grc/compliance-certifications.md
-    - Incident Management: checklist/grc/incident-management.md
-    - Policies: checklist/grc/policies.md
-    - Security Training: checklist/grc/security-training.md
-    - Service Level Agreement (SLA)/Operational Level Agreement (OLA) Definition: checklist/grc/sla-ola.md
-    - Supply Chain Management: checklist/grc/supply-chain.md
-    - Systems Criticality: checklist/grc/systems-criticality.md
-    - Tabletop Exercises & Simulations: checklist/grc/tabletop-simulations.md
-    - Vendor Onboarding: checklist/grc/vendor-onboarding.md
-  - Identity Access Management:
-    - Home: checklist/identity-access-management/README.md
-    - Access Management: checklist/identity-access-management/access-management.md
-    - Multi Factor Authentication: checklist/identity-access-management/mfa.md
-    - Password Manager: checklist/identity-access-management/password-manager.md
-    - Single Sign On: checklist/identity-access-management/sso.md
-  - Infra:
-    - Home: checklist/infra/README.md
-    - Infrastructure Scanning: checklist/infra/infrastructure-scanning.md
-    - Monitoring: checklist/infra/monitoring.md
-    - Secure Guardrails: checklist/infra/secure-guardrails.md
-    - Secure Resource Provisioning: checklist/infra/secure-resource-provisioning.md
-    - Web Application Firewall (WAF), Distributed Denial of Service (DDoS) and Bot Protection: checklist/infra/waf.md
-  - Operational Security:
-    - Home: checklist/opsec/README.md
-    - Invariants Monitoring: checklist/opsec/invariants.md
-  - Product Security:
-    - Home: checklist/product-security/README.md
-    - Code Review Process: checklist/product-security/code-review-process.md
-    - Pentests: checklist/product-security/pentests.md
-    - Responsible Vulnerability Disclosure: checklist/product-security/responsible-vulnerability-disclosure.md
-    - Secrets Management: checklist/product-security/secrets-management.md
-    - Secure Coding Training: checklist/product-security/secure-coding-training.md
-    - Secure Defaults: checklist/product-security/secure-defaults.md
-    - Security Champions: checklist/product-security/security-champions.md
-    - Threat Modeling: checklist/product-security/threat-modeling.md
-    - Vulnerability Management Program: checklist/product-security/vulnerability-management-program.md
-  - Security Operations Center:
-    - Home: checklist/soc/README.md
-    - Cyber Threat Intelligence (CTI): checklist/soc/cti.md
-    - Threat Detection & Response (TDR): checklist/soc/tdr.md
-plugins:
-- rss
-repo_name: luisfontes19/orgsec-guide
-repo_url: https://github.com/luisfontes19/orgsec-guide
 site_name: OrgSec Guide
 site_url: https://luisfontes19.github.io/orgsec-guide
-site_description: A comprehensive checklist and guide for organizations looking to implement a robust cybersecurity program
+site_description:
+  A comprehensive checklist and guide for organizations looking to
+  implement a robust cybersecurity program
 site_author: Luis Fontes
 theme:
   palette:
-  - media: '(prefers-color-scheme: light)'
-    scheme: default
-    toggle:
-      icon: material/weather-night
-      name: Switch to dark mode
-  - media: '(prefers-color-scheme: dark)'
-    scheme: slate
-    toggle:
-      icon: material/weather-sunny
-      name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
   favicon: images/favicon.ico
   features:
-  - navigation.path
-  - navigation.indexes
-  - navigation.instant
-  - navigation.instant.progress
-  - navigation.tracking
-  - navigation.sections
+    - navigation.path
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.top
+    - content.code.copy
+    - content.footnote.tooltips
   logo: images/logo.png
   name: material
 use_directory_urls: false
+plugins:
+  - rss
+  - search
+  - social
+repo_name: luisfontes19/orgsec-guide
+repo_url: https://github.com/luisfontes19/orgsec-guide
 extra_css:
-- styles.css
+  - styles.css
 extra_javascript:
-- script.js
+  - script.js
+docs_dir: ../src
+markdown_extensions:
+  - admonition
+  - def_list
+  - tables
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      clickable_checkbox: true
+      custom_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+      auto_title: true
+      linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+nav:
+  - Home: README.md
+  - Using This Guide: 01-using-this-guide.md
+  - The Security Team Mindset: 02-mindset.md
+  - Extra Resources: 03-extra-resources.md
+  - Checklist: checklist/checklist.md
+  - Artificial Intelligence:
+      - Home: checklist/ai/README.md
+      - Agents: checklist/ai/agents.md
+      - MCP Servers: checklist/ai/mcp_servers.md
+  - DevSecOps:
+      - Home: checklist/devsecops/README.md
+      - Container Scanning: checklist/devsecops/container-scanning.md
+      - Dast Scans: checklist/devsecops/dast-scans.md
+      - Sast Scans: checklist/devsecops/sast-scans.md
+      - SBOMs: checklist/devsecops/sboms.md
+      - SCA Scans: checklist/devsecops/sca-scans.md
+      - Secrets Scans: checklist/devsecops/secrets-scans.md
+      - Secure Deployments: checklist/devsecops/secure-deployments.md
+      - Secure the SCM Platform: checklist/devsecops/secure-the-scm-platform.md
+  - Endpoint Security:
+      - Home: checklist/endpoint-security/README.md
+      - Endpoint Detection And Response (EDR): checklist/endpoint-security/endpoint-detection-response.md
+      - Mobile Device Management (MDM): checklist/endpoint-security/mdm.md
+      - Phishing Strategy: checklist/endpoint-security/phishing-strategy.md
+  - GRC:
+      - Home: checklist/grc/README.md
+      - Asset Inventory: checklist/grc/asset-inventory.md
+      - Compliance And Certifications: checklist/grc/compliance-certifications.md
+      - Incident Management: checklist/grc/incident-management.md
+      - Policies: checklist/grc/policies.md
+      - Security Training: checklist/grc/security-training.md
+      - Service Level Agreement (SLA)/Operational Level Agreement (OLA) Definition: checklist/grc/sla-ola.md
+      - Supply Chain Management: checklist/grc/supply-chain.md
+      - Systems Criticality: checklist/grc/systems-criticality.md
+      - Tabletop Exercises & Simulations: checklist/grc/tabletop-simulations.md
+      - Vendor Onboarding: checklist/grc/vendor-onboarding.md
+  - Identity Access Management:
+      - Home: checklist/identity-access-management/README.md
+      - Access Management: checklist/identity-access-management/access-management.md
+      - Multi Factor Authentication: checklist/identity-access-management/mfa.md
+      - Password Manager: checklist/identity-access-management/password-manager.md
+      - Single Sign On: checklist/identity-access-management/sso.md
+  - Infra & Cloud:
+      - Home: checklist/infra/README.md
+      - Infrastructure Scanning: checklist/infra/infrastructure-scanning.md
+      - Monitoring: checklist/infra/monitoring.md
+      - Secure Guardrails: checklist/infra/secure-guardrails.md
+      - Secure Resource Provisioning: checklist/infra/secure-resource-provisioning.md
+      - Web Application Firewall (WAF), Distributed Denial of Service (DDoS) and Bot Protection: checklist/infra/waf.md
+  - Operational Security:
+      - Home: checklist/opsec/README.md
+      - Invariants Monitoring: checklist/opsec/invariants.md
+      - Red Teaming Exercises: checklist/opsec/red-teaming.md
+  - Product Security:
+      - Home: checklist/product-security/README.md
+      - Code Review Process: checklist/product-security/code-review-process.md
+      - Pentests: checklist/product-security/pentests.md
+      - Responsible Vulnerability Disclosure: checklist/product-security/responsible-vulnerability-disclosure.md
+      - Secrets Management: checklist/product-security/secrets-management.md
+      - Secure Coding Training: checklist/product-security/secure-coding-training.md
+      - Secure Defaults: checklist/product-security/secure-defaults.md
+      - Security Champions: checklist/product-security/security-champions.md
+      - Threat Modeling: checklist/product-security/threat-modeling.md
+      - Vulnerability Management Program: checklist/product-security/vulnerability-management-program.md
+  - Security Operations Center:
+      - Home: checklist/soc/README.md
+      - Cyber Threat Intelligence (CTI): checklist/soc/cti.md
+      - Threat Detection & Response (TDR): checklist/soc/tdr.md
