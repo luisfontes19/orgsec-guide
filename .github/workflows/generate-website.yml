@@ -28,4 +28,9 @@ jobs:
       - run: |
           chmod +x resources/scripts/mkdocs-config.sh
           ./resources/scripts/mkdocs-config.sh
-      - run: mkdocs gh-deploy --force
+      - run: |
+          python ./resources/scripts/mkdocs_prepare_tree.py
+      - run: |
+          chmod +x resources/scripts/generate-website.sh
+          ./resources/scripts/generate-website.sh
+

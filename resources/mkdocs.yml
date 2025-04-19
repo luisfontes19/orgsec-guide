@@ -103,7 +103,7 @@ theme:
   - navigation.instant.progress
   - navigation.tracking
   - navigation.sections
-  logo: ../images/logo.png
+  logo: images/logo.png
   name: material
 use_directory_urls: false
 extra_css:
