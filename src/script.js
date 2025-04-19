@@ -24,15 +24,14 @@ window.addEventListener('load', () => {
             }
         })
     })
-});
-
+})
 
 document.body.addEventListener('click', (e) => {
     if (!e.target.matches('.task-list-item label input'))
         return
 
-    const checkbox = e.target;
-    const checked = checkbox.checked;
+    const checkbox = e.target
+    const checked = checkbox.checked
     const li = checkbox.parentElement.parentElement
     const text = li.textContent
     const list = li.parentElement
@@ -41,8 +40,6 @@ document.body.addEventListener('click', (e) => {
 
     const itemKey = `${path}:${listIndex}:${text}`
 
-
-
     let checkedItems = JSON.parse(localStorage.getItem(LOCALSTORAGE_KEY))
 
     if (!checkedItems)
@@ -50,11 +47,10 @@ document.body.addEventListener('click', (e) => {
 
 
     // Ensure we don't have duplicates by always removing the item first
-    checkedItems = checkedItems.filter(i => i !== itemKey);
-
+    checkedItems = checkedItems.filter(i => i !== itemKey)
 
     if (checked)
         checkedItems.push(itemKey)
 
     localStorage.setItem(LOCALSTORAGE_KEY, JSON.stringify(checkedItems))
-});
+})
