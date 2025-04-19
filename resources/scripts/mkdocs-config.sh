@@ -2,7 +2,7 @@
 
 # Script to prepare for mkdocs usage
 
-pip install mkdocs mkdocs-material tzdata pytz mkdocs-rss-plugin
+pip install mkdocs mkdocs-material tzdata pytz mkdocs-rss-plugin "mkdocs-material[imaging]"
 mkdir -p output/site
 
 SCRIPT_DIR=$(dirname "$0")
