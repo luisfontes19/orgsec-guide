@@ -52,7 +52,6 @@ nav:
     - Single Sign On: checklist/identity-access-management/sso.md
   - Infra:
     - Home: checklist/infra/README.md
-    - Dangling Domains Detection: checklist/infra/dangling-domains-detection.md
     - Infrastructure Scanning: checklist/infra/infrastructure-scanning.md
     - Monitoring: checklist/infra/monitoring.md
     - Secure Guardrails: checklist/infra/secure-guardrails.md
@@ -81,6 +80,9 @@ plugins:
 repo_name: luisfontes19/orgsec-guide
 repo_url: https://github.com/luisfontes19/orgsec-guide
 site_name: OrgSec Guide
+site_url: https://luisfontes19.github.io/orgsec-guide
+site_description: A comprehensive checklist and guide for organizations looking to implement a robust cybersecurity program
+site_author: Luis Fontes
 theme:
   palette:
   - media: '(prefers-color-scheme: light)'

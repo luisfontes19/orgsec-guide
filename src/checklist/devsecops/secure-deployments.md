@@ -4,11 +4,11 @@
 
 ## Outcome
 
-- [ ][TBD]
+- [ ] [TBD]
 
 ## Metrics
 
-- [ ][TBD]
+- [ ] [TBD]
 
 ## Tools & Resources
 
