@@ -1,0 +1,32 @@
+{
+    "ignorePatterns": [
+        {
+            "pattern": "datadome\\.co"
+        },
+        {
+            "pattern": "akamai\\.com"
+        },
+        {
+            "pattern": "mend\\.io"
+        },
+        {
+            "pattern": "adobe\\.com"
+        }
+    ],
+    "aliveStatusCodes": [
+        200,
+        202,
+        206
+    ],
+    "httpHeaders": [
+        {
+            "urls": [
+                "*"
+            ],
+            "headers": {
+                "User-Agent": " Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+                "Referer": "https://www.google.com"
+            }
+        }
+    ]
+}

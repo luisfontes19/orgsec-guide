@@ -1,0 +1,17 @@
+on: push
+jobs:
+  check-markdown:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Markdown Linter
+        uses: DavidAnson/markdownlint-cli2-action@v9
+        with:
+            globs: |
+              ./src/**/*.md
+
+      - name: Check links
+        run: |
+          chmod +x resources/scripts/check-links.sh
+          resources/scripts/check-links.sh

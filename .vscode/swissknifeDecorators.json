@@ -1,0 +1,174 @@
+[
+  {
+    "file": "src/checklist/product-security/bug-bounty.md",
+    "decorator": "✓"
+  },
+  {
+    "file": "src/checklist/product-security/minimum-viable-secure-product.md",
+    "decorator": "✓"
+  },
+  {
+    "file": "src/checklist/product-security/open-source-libraries-policy-management.md",
+    "decorator": "✓"
+  },
+  {
+    "file": "src/checklist/devsecops/sast-scans.md",
+    "decorator": "✓"
+  },
+  {
+    "file": "src/checklist/grc/supply-chain.md",
+    "decorator": "✓"
+  },
+  {
+    "file": "src/checklist/identity-access-management/password-manager.md",
+    "decorator": "✓"
+  },
+  {
+    "file": "src/checklist/identity-access-management/mfa.md",
+    "decorator": "✓"
+  },
+  {
+    "file": "src/04-using-this-guide.md",
+    "decorator": "✓"
+  },
+  {
+    "file": "src/05-mindset.md",
+    "decorator": "✓"
+  },
+  {
+    "file": "src/checklist/devsecops/container-scanning.md",
+    "decorator": "✓"
+  },
+  {
+    "file": "src/checklist/devsecops/sboms.md",
+    "decorator": "✓"
+  },
+  {
+    "file": "src/checklist/devsecops/dast-scans.md",
+    "decorator": "✓"
+  },
+  {
+    "file": "src/checklist/grc/tabletop-simulations.md",
+    "decorator": "👀"
+  },
+  {
+    "file": "src/checklist/product-security/vulnerability-management-program.md",
+    "decorator": "✓"
+  },
+  {
+    "file": "src/01-using-this-guide.md",
+    "decorator": "✓"
+  },
+  {
+    "file": "src/02-mindset.md",
+    "decorator": "✓"
+  },
+  {
+    "file": "src/checklist/soc/cti.md",
+    "decorator": "👀"
+  },
+  {
+    "file": "src/checklist/soc/tdr.md",
+    "decorator": "✓"
+  },
+  {
+    "file": "src/checklist/product-security/threat-modeling.md",
+    "decorator": "✓"
+  },
+  {
+    "file": "src/checklist/product-security/security-champions.md",
+    "decorator": "✓"
+  },
+  {
+    "file": "src/README.md",
+    "decorator": "✓"
+  },
+  {
+    "file": "src/checklist/product-security/secure-defaults.md",
+    "decorator": "✓"
+  },
+  {
+    "file": "src/checklist/product-security/secure-coding-training.md",
+    "decorator": "✓"
+  },
+  {
+    "file": "src/checklist/product-security/secrets-management.md",
+    "decorator": "✓"
+  },
+  {
+    "file": "src/checklist/product-security/responsible-vulnerability-disclosure.md",
+    "decorator": "✓"
+  },
+  {
+    "file": "src/checklist/product-security/code-review-process.md",
+    "decorator": "✓"
+  },
+  {
+    "file": "src/checklist/product-security/pentests.md",
+    "decorator": "✓"
+  },
+  {
+    "file": "src/checklist/opsec/invariants.md",
+    "decorator": "✓"
+  },
+  {
+    "file": "src/checklist/devsecops/sca-scans.md",
+    "decorator": "✓"
+  },
+  {
+    "file": "src/checklist/devsecops/secrets-scans.md",
+    "decorator": "✓"
+  },
+  {
+    "file": "src/checklist/devsecops/secure-deployments.md",
+    "decorator": "✓"
+  },
+  {
+    "file": "src/checklist/devsecops/secure-the-scm-platform.md",
+    "decorator": "✓"
+  },
+  {
+    "file": "src/checklist/endpoint-security/endpoint-detection-response.md",
+    "decorator": "✓"
+  },
+  {
+    "file": "src/checklist/endpoint-security/phishing-strategy.md",
+    "decorator": "✓"
+  },
+  {
+    "file": "src/checklist/endpoint-security/mdm.md",
+    "decorator": "✓"
+  },
+  {
+    "file": "src/checklist/grc/compliance-certifications.md",
+    "decorator": "✓"
+  },
+  {
+    "file": "src/checklist/grc/asset-inventory.md",
+    "decorator": "✓"
+  },
+  {
+    "file": "src/checklist/grc/incident-management.md",
+    "decorator": "✓"
+  },
+  {
+    "file": "src/checklist/grc/policies.md",
+    "decorator": "✓"
+  },
+  {
+    "file": "src/checklist/grc/vendor-onboarding.md",
+    "decorator": "✓"
+  },
+  {
+    "file": "src/checklist/grc/systems-criticality.md",
+    "decorator": "✓"
+  },
+  {
+    "file": "src/checklist/grc/sla-ola.md",
+    "decorator": "✓"
+  },
+  {
+    "file": "src/checklist/identity-access-management/access-management.md",
+    "decorator": "✓"
+  }
+]

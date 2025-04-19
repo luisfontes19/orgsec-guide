@@ -1,0 +1,219 @@
+# Fonts
+# =====
+# Out of the box fonts:
+# 'Courier', 'Courier-Bold', 'Courier-Oblique', 'Courier-BoldOblique', 'Helvetica', 'Helvetica-Bold', 'Helvetica-Oblique', 'Helvetica-BoldOblique', 'Times-Roman', 'Times-Bold', 'Times-Italic', 'Times-BoldItalic', 'Symbol','ZapfDingbats'
+#
+# To add new fonts use the document.fonts property. Each font should be a path to a  .ttf file
+# When adding a new fonts, it can be referenced across the document with the same name as the filename (without the extension)
+#
+# Fonts are measured in pt,
+
+document:
+  background_image: ""
+  body:
+    alignment: left
+    color: "#000000"
+    font: Helvetica
+    font_size: 10
+    space_after: 0
+    space_before: 0
+  code:
+    background_color: "#DDDDDD"
+    color: "#333333"
+    font: Courier
+    font_size: 10
+  code_highlight:
+    # if  set to true an image will be generated with highlighted code, otherwise a text block is used
+    do_highlight: true
+    line_numbers: true
+
+    # Any theme available in https://pygments.org/styles/
+    theme: monokai
+  dividers:
+    alignment: center
+    color: "#000000"
+    space_after: 0.2
+    space_before: 0.2
+    thickness: 0.01
+    width: 100%
+  fonts: []
+
+  # can have either the 'all' property or the 'odd'/'even' properties. The nested properties are exactly the same. You should use odd/even if you want to have different headers/footers depending for odd and even page
+  # You can use the ${{page_number}} variable in the text
+  footer:
+    all:
+      alignment: right
+      color: "#AAAAAA"
+      enabled: true
+      font: Helvetica
+      font_size: 10
+      space_after: 0.5
+      space_before: 0
+      text: ${{page_number}}
+    start_at_page: 2
+
+  # can have either the 'all' property or the 'odd'/'even' properties. The nested properties are exactly the same. You should use odd/even if you want to have different headers/footers depending for odd and even page
+  # You can use the ${{page_number}} variable in the text
+  header:
+    all:
+      alignment: left
+      color: "#00006f"
+      enabled: true
+      font: Helvetica
+      font_size: 10
+      space_after: 0
+      space_before: 0.5
+      text: ${{title}}
+    start_at_page: 2
+  heading1:
+    font_size: 30.0
+    color: "#00006f"
+    numbering: arabic
+    space_after: 0.1
+    space_before: 0.2
+    start_content_on_new_page: false
+    start_on_new_page: true
+  heading2:
+    font: Helvetica
+    color: "#00006f"
+    font_size: 25.0
+    numbering: arabic
+    space_after: 0.1
+    space_before: 0
+    start_content_on_new_page: false
+    start_on_new_page: true
+  heading3:
+    font: Helvetica
+    font_size: 20.0
+    color: "#00006f"
+    numbering: arabic
+    space_after: 0.1
+    space_before: 0
+    start_content_on_new_page: false
+    start_on_new_page: false
+  heading4:
+    font: Helvetica
+    font_size: 15.0
+    color: "#00006f"
+    numbering: arabic
+    space_after: 0.1
+    space_before: 0.2
+    start_content_on_new_page: false
+    start_on_new_page: false
+  heading5:
+    font: Helvetica
+    font_size: 10.0
+    color: "#00006f"
+    numbering: arabic
+    space_after: 0.1
+    space_before: 0.2
+    start_content_on_new_page: false
+    start_on_new_page: false
+  heading6:
+    font: Helvetica
+    color: "#00006f"
+    font_size: 5.0
+    numbering: arabic
+    space_after: 0.1
+    space_before: 0.2
+    start_content_on_new_page: false
+    start_on_new_page: false
+  images:
+    # Will use the same settings as the toc
+    list_of_figures:
+      depth: 3
+      enabled: true
+      heading_color: "#000000"
+      heading_font: Helvetica
+      heading_font_size: 10
+      indentation: 0.1
+      numbering: roman
+      page_break: false
+      prefix: "Figure "
+      start_on_new_page: true
+      title: List of Figures
+
+    # Will use the alt text of the image as a legend
+    show_legends: true
+  links:
+    color: "#00006f"
+    underline: false
+  margin:
+    bottom: 1
+    left: 1
+    right: 1
+    top: 1
+  page_break_on_new_md_file: false
+
+  # values can be found at https://hgcom/hg-public/reportlab/file/tip/src/reportlab/lib/pagesizes.py
+  page_size: A4
+
+  # if you change this property, this will only impact the numbering shown in the document, this means for the purpose of this configuration odd and even page numbers are related to the page order in the document, and not the page shown based on this index
+  # start_page_count_at_page: 1
+  start_page_count_on_first_header: true
+  tables:
+    border_color: "#d0d0d0"
+    header:
+      background_color: "#f0f0f0"
+      font: Helvetica
+      font_size: 10
+      text_alignment: center
+
+    # list, grid or grid_inner
+    style: list
+    text_alignment: left
+  title_page:
+    author:
+      alignment: center
+      color: "#efefef"
+      font: Helvetica
+      font_size: 10
+      show: false
+      space_after: 0
+      space_before: 1
+
+    # Path to the cover image
+    cover_image: "resources/cover.png"
+    enabled: true
+    page_break: false
+    show_author: false
+    show_title: true
+    subject:
+      alignment: center
+      color: "#efefef"
+      font: Helvetica
+      font_size: 20
+      show: true
+      space_after: 0
+      space_before: 7
+    title:
+      alignment: center
+      color: "#efefef"
+      font: Helvetica
+      font_size: 50
+      show: true
+      space_after: 0
+      space_before: 0
+  toc:
+    depth: 2
+    enabled: true
+    heading_color: "#00006f"
+    heading_font: Helvetica
+    heading_font_size: 10
+    indentation: 0.1
+    page_break: false
+    start_on_new_page: true
+    title: Table of Contents
+
+# In the 'document' properties of this file you can reference to metadata variables using the syntax ${{property_name}}
+# You can add your own variables here as well.
+# Also on the markdown files you can reference to this variables with ${{pdf.YOUR_VARIABLE}}'.
+# These will be replaced in the pdf with the value defined in this file. Note that you cannot have spaces
+metadata:
+  author: ""
+  creator: ""
+  keywords: []
+  producer: ""
+  subject: A comprehensive checklist and guide for organizations looking to implement a robust cybersecurity program
+  title: Devops Guide
+  version: "1.0"

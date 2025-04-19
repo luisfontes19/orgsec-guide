@@ -1,0 +1,17 @@
+:root  > * {
+  --md-primary-fg-color:        #00006f;
+  --md-primary-fg-color--light: #6363ff;
+  --md-primary-fg-color--dark:  #00002c;
+}
+
+p, ul{
+  font-size: .7rem;
+}
+
+.md-typeset ul li{
+  margin-bottom: 0px
+}
+
+.md-typeset{
+  line-height: 1.4
+}

@@ -1,0 +1,24 @@
+name: Simple Usage
+
+on:
+  push:
+    tags:
+      - v0.*
+      - v1.*
+
+jobs:
+  generate_book:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v4
+
+      - name: Prepare chapters
+        run: |
+          chmod +x resources/scripts/generate-pdf.sh
+
+      - uses: actions/upload-artifact@v3
+        with:
+          name: orgsec-guide.pdf
+          path: output

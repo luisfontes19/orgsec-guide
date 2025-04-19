@@ -1,0 +1,38 @@
+{
+    "name": "orgsec-guide",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "forwardPorts": [
+        8787
+    ],
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "python.locator": "js",
+                "editor.defaultFormatter": "ms-python.python",
+                "editor.suggestSelection": "first",
+                "editor.tabSize": 4,
+                "editor.formatOnPaste": true,
+                "editor.formatOnSave": true,
+                "editor.inlineSuggest.enabled": true,
+                "editor.codeActionsOnSave": {
+                    "source.organizeImports": "always"
+                },
+                "editor.multiCursorModifier": "ctrlCmd",
+                "editor.unicodeHighlight.invisibleCharacters": false,
+                "editor.unicodeHighlight.ambiguousCharacters": false
+            },
+            "extensions": [
+                "davidanson.vscode-markdownlint",
+                "streetsidesoftware.code-spell-checker",
+                "luisfontes19.vscode-swissknife",
+                "github.copilot",
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "ms-python.isort",
+                "yzhang.markdown-all-in-one"
+            ]
+        }
+    }
+}
