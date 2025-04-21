@@ -2,7 +2,7 @@
 
 ## Introduction
 
-![logo](src/images/logo.png)
+![logo](src/images/banner.png)
 
 This project provides a comprehensive checklist and guide for organizations looking to implement a robust cybersecurity program. Whether you're starting from scratch or looking to enhance your existing security measures, this guide is designed to ensure you cover all essential aspects of organizational cybersecurity.
 
