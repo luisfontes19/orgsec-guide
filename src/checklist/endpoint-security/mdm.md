@@ -34,7 +34,10 @@
 - [JumpCloud](https://jumpcloud.com/) (Paid)
 - [ScaleFusion](https://scalefusion.com/mobile-device-management) (Paid)
 - [IMazing Profile Editor](https://imazing.com/profile-editor) - GUI tool to help generating MacOS profiles (Free)
-- [Santa](https://github.com/northpolesec/santa) - A tool to manage binary and file access for macOs (Free)
+- [Santa](https://github.com/northpolesec/santa) - A tool to manage binary and file access for macOS (Free)
+- [Munki](https://www.munki.org/munki/) - A tool to manage software installation and updates for macOS (Free)
+- [Gorilla](https://github.com/1dustindavis/gorilla) Similar to Munki, for WIndows (Free)
+- [NanoMDM](https://github.com/micromdm/nanomdm) Open source MDM server for Apple devices (Free)
 
 ## Further Reading
 
