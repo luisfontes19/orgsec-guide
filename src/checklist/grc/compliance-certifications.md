@@ -12,9 +12,7 @@
 
 ## Tools & Resources
 
-- [Gapps](https://github.com/bmarsh9/gapps) (Free)
-- [Drata](https://drata.com/) (Paid)
-- [Vanta](https://www.vanta.com/) (Paid)
+Also refer to the tools mentioned in [here](./README.md#Tools-&-Resources).
 
 ## Further Reading
 

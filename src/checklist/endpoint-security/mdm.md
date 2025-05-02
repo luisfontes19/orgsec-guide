@@ -36,8 +36,9 @@
 - [IMazing Profile Editor](https://imazing.com/profile-editor) - GUI tool to help generating MacOS profiles (Free)
 - [Santa](https://github.com/northpolesec/santa) - A tool to manage binary and file access for macOS (Free)
 - [Munki](https://www.munki.org/munki/) - A tool to manage software installation and updates for macOS (Free)
-- [Gorilla](https://github.com/1dustindavis/gorilla) Similar to Munki, for WIndows (Free)
-- [NanoMDM](https://github.com/micromdm/nanomdm) Open source MDM server for Apple devices (Free)
+- [Gorilla](https://github.com/1dustindavis/gorilla) - Similar to Munki, for WIndows (Free)
+- [NanoMDM](https://github.com/micromdm/nanomdm) - Open source MDM server for Apple devices (Free)
+- [Elevate24](https://github.com/Jigsaw24/Elevate24) - Tool to require temporary admin access for MacOS (Free/Paid)
 
 ## Further Reading
 

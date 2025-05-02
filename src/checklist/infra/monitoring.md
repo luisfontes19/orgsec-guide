@@ -12,8 +12,8 @@
 
 ## Tools & Resources
 
-- [TBD](http://example.com) (Free)
+- [CloudSnitch](https://github.com/ccbrown/cloud-snitch) (Free)
 
 ## Further Reading
 
-- [Testing and evaluating GuardDuty detections](https://aws.amazon.com/blogs/security/testing-and-evaluating-guardduty-detections/)
+- [TBD](http://example.com)

@@ -14,6 +14,7 @@
 
 - [agentic-radar](https://github.com/splx-ai/agentic-radar/) - A security scanner for your LLM agentic workflows(Free)
 - [Language Model Security Database](https://www.promptfoo.dev/lm-security-db/) - Database enumerating different ways of exploiting LLMs (Free)
+- [damn-vulnerable-llm-agent](https://github.com/WithSecureLabs/damn-vulnerable-llm-agent) (Free)
 
 ## Further Reading
 

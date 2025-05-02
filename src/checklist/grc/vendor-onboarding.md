@@ -20,10 +20,10 @@
 
 ## Tools & Resources
 
-- [Gapps](https://github.com/bmarsh9/gapps) (Free)
-- [Eramba](https://www.eramba.org/) (Free/Paid)
 - [Sprinto](https://sprinto.com/vendor-risk-assessment/) (Paid)
 - [Bitsight](https://www.bitsight.com/third-party-risk-management) (Paid)
+
+Also refer to the tools mentioned in [here](./README.md#Tools-&-Resources).
 
 ## Further Reading
 

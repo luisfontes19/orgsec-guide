@@ -23,10 +23,13 @@
 
 - [Nuclei](https://github.com/projectdiscovery/nuclei) (Free)
 - [OpenVAS](https://www.openvas.org/) (Free)
+- [Prowler](https://github.com/prowler-cloud/prowler) (Free/Paid)
 - [SecureCodeBox](https://github.com/secureCodeBox/secureCodeBox) (Free)
 - [Wizz](https://www.wiz.io/) (Paid)
 - [Nessus](https://www.tenable.com/products/nessus) (Paid)
+- [AWS Security MCP](https://github.com/groovyBugify/aws-security-mcp) (Free)
 
 ## Further Reading
 
 - [Implementing CNAPP: Tool Selection and Day 1 Focus Areas](https://naman16.github.io/cloud-security/)
+- [Testing and evaluating GuardDuty detections](https://aws.amazon.com/blogs/security/testing-and-evaluating-guardduty-detections/)

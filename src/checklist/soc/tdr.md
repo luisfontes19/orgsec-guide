@@ -42,6 +42,7 @@ Ultimately, the choice between SIEM and MDR should be based on the organizationâ
 - [ArticWolf](https://arcticwolf.com/) - MDR (Paid)
 - [Panther](https://panther.com/) - SIEM (Paid)
 - [REx](https://rulexplorer.io/) - Detection Rule explorer (Free)
+- [Elastic's Detection Rules](https://github.com/elastic/detection-rules/tree/main) (Free)
 
 ## Further Reading
 

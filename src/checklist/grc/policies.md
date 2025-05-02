@@ -24,8 +24,9 @@
 ## Tools & Resources
 
 - [SAN's Security Policy Templates](https://www.sans.org/information-security-policy/) (Free)
-- [Eramba](https://www.eramba.org/) (Free/Paid)
 - [Tailscale Open Sourced Policies](https://tailscale.com/security-policies) (Free)
+
+Also refer to the tools mentioned in [here](./README.md#Tools-&-Resources).
 
 ## Further Reading
 

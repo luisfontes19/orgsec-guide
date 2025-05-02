@@ -39,11 +39,12 @@ By using scorecards, organizations can make informed decisions about which depen
 ## Tools & Resources
 
 - [SecurityScoreCards](https://securityscorecards.dev/) - Generate or query a risk score card for open source projects (Free)
-- [DependencyTrack](https://dependencytrack.org/) (Free) - Supply Chain management for Dependencies and Risk Classification tool
-- [tldrLegal](https://www.tldrlegal.com/) (Free) - Tool to help identifying permissions for open source licenses
-- [Deps.dev](https://deps.dev/) (Free) - Provides a lot of information, including scorecards for libraries (API available)
-- [OSV Database](https://osv.dev/list) (Free) - Open Source Vulnerabilities Database
+- [DependencyTrack](https://dependencytrack.org/) - Supply Chain management for Dependencies and Risk Classification tool (Free)
+- [tldrLegal](https://www.tldrlegal.com/) - Tool to help identifying permissions for open source licenses (Free)
+- [Deps.dev](https://deps.dev/) (Free) - Provides a lot of information, including scorecards for libraries (API available) (Free)
+- [OSV Database](https://osv.dev/list) - Open Source Vulnerabilities Database (Free)
 - [Semgrep Supply Chain](https://semgrep.dev/products/semgrep-supply-chain/) (Paid)
+- [package-analysis](https://github.com/ossf/package-analysis?tab=readme-ov-file) - Tool to look for some malware related behaviors in open source packages (Free)
 
 ## Further Reading
 

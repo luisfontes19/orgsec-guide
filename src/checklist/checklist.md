@@ -14,6 +14,7 @@
 - [ ] [Pentests](./product-security/pentests.md)
 - [ ] [Secure Defaults](./product-security/secure-defaults.md)
 - [ ] Standard Container Images
+- [ ] [Supply Chain Policy & Management](grc/supply-chain.md)
 
 **Endpoint Security**
 
@@ -26,7 +27,6 @@
 - [ ] [Vendor Onboarding](./grc/vendor-onboarding.md)
 - [ ] [Systems Criticality](./grc/systems-criticality.md)
 - [ ] [SLAs/OLAs Definition](./grc/sla-ola.md)
-- [ ] [Supply Chain Policy & Management](grc/supply-chain.md)
 - [ ] [Asset Inventory](./grc/asset-inventory.md)
 - [ ] Risk Management Framework
 - [ ] [Incident Management Framework](./grc/incident-management.md)
@@ -44,7 +44,7 @@
 - [ ] Data Encryption and Key Management process
 - [ ] [Secure Guardrails](./infra/secure-guardrails.md)
 - [ ] Cloud-native application protection platforms (CNAPP)
-- [ ] [Infrastructure Scanning](./infra/infrastructure-scanning.md)
+- [ ] [Infrastructure Scanning & Monitoring](./infra/infrastructure-scanning.md)
 - [ ] Honey Tokens
 - [ ] [Monitoring](./infra/monitoring.md)
 
