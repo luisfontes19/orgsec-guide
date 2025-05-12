@@ -45,6 +45,8 @@ By using scorecards, organizations can make informed decisions about which depen
 - [OSV Database](https://osv.dev/list) - Open Source Vulnerabilities Database (Free)
 - [Semgrep Supply Chain](https://semgrep.dev/products/semgrep-supply-chain/) (Paid)
 - [package-analysis](https://github.com/ossf/package-analysis?tab=readme-ov-file) - Tool to look for some malware related behaviors in open source packages (Free)
+- [supply-chain-firewall](https://github.com/DataDog/supply-chain-firewall) (Free)
+- [GuardDog](https://github.com/DataDog/guarddog) - Check for malicious dependencies (Free)
 
 ## Further Reading
 

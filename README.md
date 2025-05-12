@@ -6,7 +6,9 @@
 
 This project provides a comprehensive checklist and guide for organizations looking to implement a robust cybersecurity program. Whether you're starting from scratch or looking to enhance your existing security measures, this guide is designed to ensure you cover all essential aspects of organizational cybersecurity.
 
-## Usage
+Check out the project website [here](https://luisfontes19.github.io/orgsec-guide/)
+
+## For local development
 
 ### Check markdown
 
@@ -27,14 +29,14 @@ chmod +x resources/scripts/check-links.sh
 resources/scripts/check-links.sh
 ```
 
-### Generate pdf
+<!-- ### Generate pdf
 
 We use a custom built tool to generate the pdfs called `nicebook`. PDF is generated into the `output` folder.
 
 ```bash
 chmod +x resources/scripts/generate-pdf.sh
 resources/scripts/generate-pdf.sh
-```
+``` -->
 
 ### Generate and run local website
 
