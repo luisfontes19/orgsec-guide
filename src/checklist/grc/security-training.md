@@ -24,6 +24,7 @@ To maximize the effectiveness of security training, organizations must select co
 - [Ninjio](https://ninjio.com/) (Paid)
 - [Hoxhunt](https://hoxhunt.com/) (Paid)
 - [Wizer](https://www.wizer-training.com/) (Paid)
+- [AdaptiveSecurity](https://www.adaptivesecurity.com/) (Free)
 
 ## Further Reading
 

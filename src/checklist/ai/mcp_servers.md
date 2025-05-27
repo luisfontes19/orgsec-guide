@@ -20,6 +20,7 @@ Also MCP servers may introduce sensitive operations, like executing code or acce
 - [mcp-scan](https://github.com/invariantlabs-ai/mcp-scan) (Free)
 - [damn-vulnerable-MCP-server](https://github.com/harishsg993010/damn-vulnerable-MCP-server) (Free)
 - [Prompt Engineering Guide](https://www.promptingguide.ai/) (Free)
+- [The Vulnerable MCP Project](https://vineethsai.github.io/vulnerablemcp/) (Free)
 
 ## Further Reading
 

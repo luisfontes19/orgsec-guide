@@ -47,6 +47,8 @@
 - [ ] [Infrastructure Scanning & Monitoring](./infra/infrastructure-scanning.md)
 - [ ] Honey Tokens
 - [ ] [Monitoring](./infra/monitoring.md)
+- [ ] [Hardened Containers](./infra/hardened-containers.md)
+- [ ] [Network Mapping](./infra/network-mapping.md)
 
 **DevSecOps**
 

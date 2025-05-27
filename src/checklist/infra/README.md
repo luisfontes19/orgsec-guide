@@ -10,3 +10,7 @@
 - [AWSGoat](https://github.com/ine-labs/AWSGoat) (Free)
 - [CloudGoat](https://github.com/RhinoSecurityLabs/cloudgoat) (Free)
 - [CloudSecurityWiki](https://cloudsecwiki.com/) (Free)
+
+## Further Reading
+
+- [Securing a SaaS Company's AWS Environment After a Breach](https://badshah.io/case-studies/saas-aws-breach)

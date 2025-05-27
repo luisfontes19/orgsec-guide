@@ -26,7 +26,7 @@
 
 - [Access](https://github.com/discord/access) - Tool for access requests & management  (Free)
 - [RepoKid](https://github.com/Netflix/repokid) - Tool to help maintain least privilege permissions in AWS (Free)
-- [Opan](https://www.opal.dev/) - Tool for access requests & management (Paid)
+- [Opal](https://www.opal.dev/) - Tool for access requests & management (Paid)
 
 ## Further Reading
 

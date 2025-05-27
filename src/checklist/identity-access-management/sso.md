@@ -24,6 +24,7 @@ Although this can be seen as a single point of failure, in case an attacker comp
 - [Google SSO](https://support.google.com/a/answer/60224?hl=en) (Paid)
 - [Auth0](https://auth0.com/features/single-sign-on) (Paid)
 - [Okta](https://www.okta.com/customer-identity/single-sign-on/) (Paid)
+- [Okta's customer-detection rules](https://github.com/okta/customer-detections) (Free)
 
 ## Further Reading
 

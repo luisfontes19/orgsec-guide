@@ -36,7 +36,7 @@ Ultimately, the choice between SIEM and MDR should be based on the organizationâ
 - [Grimoire](https://github.com/dataDog/grimoire) - Tool to generate audit trails for common attacks (Free)
 - [Threat Hunt Book by Predefender](https://huntbook.predefender.com/) (Free)
 - [PurpleLab](https://github.com/Krook9d/PurpleLab?) (Free)
-- [Wazuh](https://wazuh.com/) - XDR (Free/Paid)
+- [Wazuh](https://wazuh.com/) - SIEM & XDR (Free/Paid)
 - [TheHive](https://strangebee.com/) - Incident Response Tool (Free/Paid)
 - [RedCanary](https://redcanary.com/) - MDR (Paid)
 - [ArticWolf](https://arcticwolf.com/) - MDR (Paid)
