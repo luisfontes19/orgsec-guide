@@ -76,7 +76,7 @@
 
 **General OpSec**
 
-- [ ] Brand Protection
+- [ ] [Brand Protection](./opsec/brand-protection.md)
 - [ ] [Invariants monitoring](./opsec/invariants.md)
 - [ ] Confirmation for Sensitive Operations
 - [ ] Delegate Security Remediation

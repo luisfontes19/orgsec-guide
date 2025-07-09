@@ -43,9 +43,11 @@ Ultimately, the choice between SIEM and MDR should be based on the organizationâ
 - [Panther](https://panther.com/) - SIEM (Paid)
 - [REx](https://rulexplorer.io/) - Detection Rule explorer (Free)
 - [Elastic's Detection Rules](https://github.com/elastic/detection-rules/tree/main) (Free)
+- [TraceCat](https://www.tracecat.com/) - Soar tool (Free/Paid)
 
 ## Further Reading
 
 - [Shorten your detection engineering feedback loops with Grimoire](https://securitylabs.datadoghq.com/articles/announcing-grimoire/)
 - [Automatic Response: the Iron Dome!](https://www.linkedin.com/pulse/automatic-response-iron-dome-jorge-o-higgins-sfakf)
 - [Delegate Security Remediation to Employees to employees](https://mayakaczorowski.com/blogs/slacksecops)
+- [KC7](https://kc7cyber.com/) - The free cyber detective game

@@ -34,3 +34,4 @@ The safer way to manage secrets is by implementing a secret management platform 
 - [What is a Secrets Manager?](https://www.doppler.com/blog/what-is-a-secrets-manager)
 - [Environment Variables Don’t Keep Secrets](https://developer.cyberark.com/blog/environment-variables-dont-keep-secrets-best-practices-for-plugging-application-credential-leaks/)
 - [5 best practices for secrets management](https://www.hashicorp.com/resources/5-best-practices-for-secrets-management)
+- [Building Uber’s Multi-Cloud Secrets Management Platform to Enhance Security](https://www.uber.com/en-AU/blog/building-ubers-multi-cloud-secrets-management-platform/)

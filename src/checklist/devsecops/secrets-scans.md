@@ -20,6 +20,7 @@
 
 ## Tools & Resources
 
+- [Kingfisher](https://github.com/mongodb/kingfisher) (Free)
 - [TruffleHog](https://trufflesecurity.com/trufflehog) (Free)
 - [GitLeaks](https://github.com/gitleaks/gitleaks) (Free)
 - [Github's Push Protection](https://docs.github.com/en/enterprise-cloud@latest/code-security/secret-scanning/push-protection-for-repositories-and-organizations) (Paid)
