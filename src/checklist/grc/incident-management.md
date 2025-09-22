@@ -28,6 +28,7 @@ As the situation evolves and more context becomes available, the incident record
 - [Incidental](https://github.com/incidentalhq/incidental) (Free)
 - [TheHive](https://strangebee.com/) (Free/Paid)
 - [Jira](https://www.atlassian.com/software/jira) (Paid)
+- [Incident.io](https://incident.io/) (Paid)
 
 ## Further Reading
 

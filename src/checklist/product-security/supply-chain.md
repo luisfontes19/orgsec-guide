@@ -55,3 +55,4 @@ By using scorecards, organizations can make informed decisions about which depen
 - [The State of Software Supply Chain Security 2024](https://www.reversinglabs.com/sscs-report-thank-you)
 - [Defining a secure open source policy](https://snyk.io/series/open-source-security/open-source-policy/)
 - [[A Step-by-step Guide to Preventing Dependency Confusion Attacks](https://www.jit.io/blog/preventing-dependency-confusion-attacks)]
+- [Data about all known supply-chain attacks through history](https://github.com/tstromberg/supplychain-attack-data)

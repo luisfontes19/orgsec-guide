@@ -11,6 +11,7 @@
 - [AWSGoat](https://github.com/ine-labs/AWSGoat) (Free)
 - [CloudGoat](https://github.com/RhinoSecurityLabs/cloudgoat) (Free)
 - [CloudSecurityWiki](https://cloudsecwiki.com/) (Free)
+- [Threat Technique Catalog for AWS](https://aws-samples.github.io/threat-technique-catalog-for-aws/) (Free)
 
 ## Further Reading
 

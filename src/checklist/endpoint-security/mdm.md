@@ -53,3 +53,4 @@ Ultimately, it is essential to consider the impact of MDM solutions on both user
 ## Further Reading
 
 - [Designing for security and usability: Figma's modern endpoint strategy](https://www.figma.com/blog/figmas-modern-endpoint-strategy)
+- [We scaled Santa, an open-source binary authorization tool, across all Figmates’ laptops to boost endpoint security while keeping workflows seamless. Here’s how we tackled the challenges and ensured a smooth rollout.](https://www.figma.com/blog/rolling-out-santa-without-freezing-productivity)

@@ -35,6 +35,7 @@
 - [ ] [Policies](./grc/policies.md)
 - [ ] [Security Trainings](./grc/security-training.md)
 - [ ] [Tabletop Exercises and Simulations](./grc/tabletop-simulations.md)
+- [ ] [Security Questionnaires](./grc/security-questionnaires.md)
 - [ ] Compliance And Certifications
 
 **Infra & Cloud**
