@@ -14,7 +14,7 @@
 - [ ] [Pentests](./product-security/pentests.md)
 - [ ] [Secure Defaults](./product-security/secure-defaults.md)
 - [ ] Standard Container Images
-- [ ] [Supply Chain Policy & Management](grc/supply-chain.md)
+- [ ] [Supply Chain & Management](grc/supply-chain.md)
 
 **Endpoint Security**
 
@@ -47,9 +47,7 @@
 - [ ] Cloud-native application protection platforms (CNAPP)
 - [ ] [Infrastructure Scanning & Monitoring](./infra/infrastructure-scanning.md)
 - [ ] Honey Tokens
-- [ ] [Monitoring](./infra/monitoring.md)
 - [ ] [Hardened Containers](./infra/hardened-containers.md)
-- [ ] [Network Mapping](./infra/network-mapping.md)
 
 **DevSecOps**
 

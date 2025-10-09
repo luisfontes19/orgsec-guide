@@ -1,24 +1,27 @@
 # Web Application Firewall (WAF), Distributed Denial of Service (DDoS) and Bot Protection
 
-Configuring a Web Application Firewall (WAF) demands significant time and effort, yet it's a critical measure for reducing noise and fortifying the security posture of organizational applications.
+Configuring a Web Application Firewall (WAF) demands significant time and effort, yet it's a critical measure for reducing noise and fortifying the security posture of organizational applications. Most WAFs have advanced features that can be customized to meet specific needs but its up to the organization to define and implement these rules effectively.
 
-While basic WAF features address common threats like SQL injection and Denial of Service (DoS) attacks, they often fall short in mitigating automated traffic, particularly from scanners. A strategic approach involves identifying patterns in scanners' behavior to effectively block unwanted traffic while allowing legitimate requests to pass through.
+Besides the common outcomes described bellow, some more exotic techniques may include:
 
-For instance, understanding the structure of backend applications enables the creation of rules tailored to specific patterns. Consider an API endpoint identified by the `/api/`` prefix; implementing a rule to block requests lacking this prefix can significantly reduce unwanted requests. Additionally, setting thresholds for blocked requests and implementing temporary IP bans can deter malicious actors.
+* **Set a rate limit rule that blocks all requests from an IP addresses that reaches a specified threshold or error codes (4xx, 5xx):** This may need to be tweaked based on organization business logic. For example, if the product is a mobile app and all requests are scoped based on the user permissions, a 403 due to user trying to access requests of another user should never happen so there is some confidence in blocking the IP after a few 403 errors.
+* **Set rate limit rules for common enumeration paths**: For example, if requests are done to /.git, /wp-admin (and you don't use wordpress), /.env, etc. you can set a rate limit rule that blocks the IP after a few requests to these paths as it is most likely a scanner or bot.
+* **Setup specifc requirements for all requests:** If the underlying backends are not expecting requests from any source, a set of required headers can be enforced. For example, if the backend is expecting requests from a mobile app or browser, these clients can send a specific header with some hardcoded value, that is then checked by the WAF. If the header is not present or the value is incorrect, the request can be blocked. This can help block a lot of generic scanners and bots that are not aware of this requirement.
 
-Web scanners frequently target well-known paths such as `.git`, `.env`, and `.well-known`. If these paths are not utilized by the backend, rules can be established to block requests to these paths or even blacklist the corresponding IPs. The objective is to proactively identify and block common scanner patterns to safeguard the integrity of backend systems.
+⚠️ Don't forget to allow exceptions for the previous rules. There will always be use cases that will trigger these rules and you don't want to block legitimate use cases.
 
-Furthermore, for APIs requiring authentication, rules can be configured to enforce token inclusion in relevant headers. This ensures that requests without a proper authentication header/cookie is not allowed, minimizing the risk of unwanted requests from scanners and enhancing overall security posture.
+A common issue when applying these rules (for example in cloudflare) is that the rules are only created to block the requests triggering the rules and not the full IP, so although you already know the IP is already doing reconnaissance or  malicious activity the WAF is only blocking the requests that trigger the rules meaning that a good percentage of requests can still go through. This is why its important to use Rate limit rules for these use cases, instead of regular security rules.
+The following image demonstrates an example of how to achieve this:
+
+![Rate Limit Rules](../../images/cf_rate_limit_rules.jpg)
 
 ## Outcome
 
-- [ ] Implement a WAF in front of web applications
-- [ ] The WAF is configured to block known attacks
-- [ ] There are rate limiting rules in place
-- [ ] Sensitive endpoints (like login) have additional rate limiting protections
-- [ ] WebsScrapping is detected and blocked
-- [ ] There's a DDoS Protection in place
-- [ ] The WAF is capable of detecting and block common attack patterns
+- [ ] Implement a WAF in front of all web traffic
+- [ ] Block known attacks like sql injection, xss, or specific CVEs
+- [ ] Rate limits are in place, and sensitive endpoints have stricter limits
+- [ ] Scanners and bots are detected and blocked as needed
+- [ ] DDoS Protection in place
 - [ ] Rule changes are monitored and audited
 - [ ] Captchas are presented to users when bot activity is suspected
 - [ ] Security headers are injected by the WAF
@@ -39,6 +42,7 @@ Furthermore, for APIs requiring authentication, rules can be configured to enfor
 - [Imperva](https://www.imperva.com/) (Paid)
 - [DataDome](https://datadome.co/) (Paid)
 - [Awesome Waf](https://github.com/0xInfection/Awesome-WAF) (Free)
+- [Cloudflare-WAF-Expressions](https://github.com/sefinek/Cloudflare-WAF-Expressions) (Free)
 
 ## Further Reading
 

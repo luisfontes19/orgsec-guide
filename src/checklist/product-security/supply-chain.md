@@ -19,14 +19,15 @@ By using scorecards, organizations can make informed decisions about which depen
 
 ## Outcome
 
-- [ ] Define and implement an acceptance criteria for choosing open source projects to be included in projects
+- [ ] Define and enforce an acceptance criteria for choosing open source projects to be included in projects
 - [ ] Validate that open source project's license can be used for the intended use.
-- [ ] Developers have a flow or instructions to check the Open Source projects they intend to use are acceptable under the policy
+- [ ] Developers have a flow or instructions to check the Open Source projects they intend to use are acceptable under the previous policy
 - [ ] Detect usage of open source projects not compliant with the acceptance policy
 - [ ] Scorecards/Risk scores for the used open source projects are created and tracked (in [Assets Inventory](../grc/asset-inventory.md)  or in [SBOM tools](../devsecops/sboms.md))
 - [ ] [SCA scans](../devsecops/sca-scans.md) are run for all projects and integrated in the [vulnerability management program](../product-security/vulnerability-management-program.md)
 - [ ] [SBOM](../devsecops/sboms.md)'s are generated and processed
-- [ ] Create controls to prevent (if applicable) dependency confusion
+- [ ] Controls to prevent (if applicable) dependency confusion are in place
+- [ ] Restrict usage of new versions of dependencies that have been published in the past X days
 
 ## Metrics
 
@@ -42,11 +43,12 @@ By using scorecards, organizations can make informed decisions about which depen
 - [DependencyTrack](https://dependencytrack.org/) - Supply Chain management for Dependencies and Risk Classification tool (Free)
 - [tldrLegal](https://www.tldrlegal.com/) - Tool to help identifying permissions for open source licenses (Free)
 - [Deps.dev](https://deps.dev/) (Free) - Provides a lot of information, including scorecards for libraries (API available) (Free)
-- [OSV Database](https://osv.dev/list) - Open Source Vulnerabilities Database (Free)
 - [Semgrep Supply Chain](https://semgrep.dev/products/semgrep-supply-chain/) (Paid)
 - [package-analysis](https://github.com/ossf/package-analysis?tab=readme-ov-file) - Tool to look for some malware related behaviors in open source packages (Free)
 - [supply-chain-firewall](https://github.com/DataDog/supply-chain-firewall) (Free)
 - [GuardDog](https://github.com/DataDog/guarddog) - Check for malicious dependencies (Free)
+- [Aikido's Intel](https://github.com/AikidoSec/intel)
+- [Aikido's Zen Firewall](https://github.com/AikidoSec/firewall-python). Link for pythong, but available for multiple languages (Free)
 
 ## Further Reading
 
@@ -56,3 +58,4 @@ By using scorecards, organizations can make informed decisions about which depen
 - [Defining a secure open source policy](https://snyk.io/series/open-source-security/open-source-policy/)
 - [[A Step-by-step Guide to Preventing Dependency Confusion Attacks](https://www.jit.io/blog/preventing-dependency-confusion-attacks)]
 - [Data about all known supply-chain attacks through history](https://github.com/tstromberg/supplychain-attack-data)
+- [Mitigating supply chain attacks](https://pnpm.io/supply-chain-security) Simple feature from pnpm to help mitigate supply chain attacks

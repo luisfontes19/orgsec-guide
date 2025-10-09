@@ -24,11 +24,10 @@ To ensure comprehensive security coverage, it's important to assess and address 
 ## Tools & Resources
 
 - [Google OSV-Scanner](https://google.github.io/osv-scanner/) Client tool for [OSV](https://osv.dev/) (Free)
-- [Aikido's Intel](https://github.com/AikidoSec/intel)
 - [OWASP DepScan](https://github.com/owasp-dep-scan/dep-scan) Project to find vulnerabilities in dependencies  (free)
 - [Renovate](https://www.mend.io/renovate/) Tool for dependency updates (Free)
 - [Devs.dev](https://deps.dev/) Insights about open source projects, includes OpenSSF scorecards (free)
-- [OSV](https://osv.dev/) Vulnerability database (Free)
+- [OSV Database](https://osv.dev/list) - Open Source Vulnerabilities Database (Free)
 - [Dependabot](https://docs.github.com/en/code-security/dependabot/working-with-dependabot) Open source tool to find vulnerabilities in dependencies (Free)
 - [OpenSSF Scorecards](https://scorecard.dev/) Database with scorecards for open source (free)
 - [OWASP Dependency Track](https://dependencytrack.org/) Tool to manage dependencies (Free)

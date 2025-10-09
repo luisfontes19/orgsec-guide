@@ -29,6 +29,7 @@
 - [Nessus](https://www.tenable.com/products/nessus) (Paid)
 - [AWS Security MCP](https://github.com/groovyBugify/aws-security-mcp) (Free)
 - [findmytakeover](https://github.com/anirudhbiyani/findmytakeover) (Free)
+- [trust.py](https://gist.github.com/dagrz/0efd3e94ac74aa3f3cd78e213abbed08) - A python script to map users and permissions in AWS (Free)
 
 ## Further Reading
 
@@ -37,3 +38,4 @@
 - [AWS Detection Engineering — Architecting Security Logging at Scale in AWS](https://aws.plainenglish.io/aws-detection-engineering-architecting-security-logging-at-scale-in-aws-d962ec91453a)
 - [AWS Detection Engineering: Mastering Log Sources for Threat Detection](https://aws.plainenglish.io/aws-detection-engineering-mastering-log-sources-for-threat-detection-51372da9a17e)
 - [AWS CloudTrail Event Cheatsheet: A Detection Engineer’s Guide to Critical API Calls — Part 1](https://aws.plainenglish.io/aws-cloudtrail-event-cheatsheet-a-detection-engineers-guide-to-critical-api-calls-part-1-04fb1588556f)
+- [AWS Detection Engineering — Architecting Security Logging at Scale in AWS](https://aws.plainenglish.io/aws-detection-engineering-architecting-security-logging-at-scale-in-aws-d962ec91453a)
