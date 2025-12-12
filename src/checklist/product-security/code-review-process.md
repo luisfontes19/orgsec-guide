@@ -22,6 +22,7 @@ Manual reviews should complement automated scanning, not duplicate it. Common vu
 - [OWASP Mobile Application Security Checklist](https://mas.owasp.org/checklists/MASVS-PLATFORM/) (Free)
 - [OWASP Web Security Testing Guide](https://owasp.org/www-project-web-security-testing-guide/) (Free)
 - [OWASP API Security Project](https://owasp.org/www-project-api-security/) (Free)
+- [Metis](https://github.com/arm/metis) Metis is an open-source, AI-driven tool for deep security code review (Free)
 
 ## Further Reading
 

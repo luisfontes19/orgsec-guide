@@ -7,3 +7,4 @@ This page serves to document additional resources that are not directly related 
 * [Security_Engineer_Interview_Questions](https://github.com/tadwhitaker/Security_Engineer_Interview_Questions/blob/master/security-interview-questions.md)
 * [Security_Architect_and_Principal_Security_Engineer_Interview_Questions](https://github.com/tadwhitaker/Security_Architect_and_Principal_Security_Engineer_Interview_Questions/blob/main/Security_Architect_and_Principal_Security_Engineer_Interview_Questions.md)
 * [Read the Fantastic Manual](https://breanneboland.com/blog/2022/06/04/bsides-sf-2022-read-the-fantastic-manual/)
+* [Startup Security: Ratios and a 24-Month Hiring Plan](https://theporkskewer.medium.com/startup-security-ratios-and-a-24-month-hiring-plan-83792b7491af)

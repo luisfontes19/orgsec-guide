@@ -49,6 +49,7 @@ By using scorecards, organizations can make informed decisions about which depen
 - [GuardDog](https://github.com/DataDog/guarddog) - Check for malicious dependencies (Free)
 - [Aikido's Intel](https://github.com/AikidoSec/intel)
 - [Aikido's Zen Firewall](https://github.com/AikidoSec/firewall-python). Link for pythong, but available for multiple languages (Free)
+- [Heisenberg](https://github.com/AppOmni-Labs/heisenberg-ssc-health-check) - Analyzes software dependencies across GitHub repositories to identify security vulnerabilities and health risks in your supply chain. (Free)
 
 ## Further Reading
 

@@ -25,6 +25,7 @@
 
 - [SAN's Security Policy Templates](https://www.sans.org/information-security-policy/) (Free)
 - [Tailscale Open Sourced Policies](https://tailscale.com/security-policies) (Free)
+- [OpenPolicyAgent](https://www.openpolicyagent.org/) Policies as code for easy enforcement (Free)
 
 Also refer to the tools mentioned in [here](./README.md#Tools-&-Resources).
 

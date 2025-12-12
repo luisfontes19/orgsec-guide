@@ -45,7 +45,7 @@ Ultimately, it is essential to consider the impact of MDM solutions on both user
 - [Fleet](https://github.com/fleetdm/fleet) MDM (Free)
 - [Elevate24](https://github.com/Jigsaw24/Elevate24) - Tool to require temporary admin access for MacOS (Free/Paid)
 - [Manage Engine's Endpoint Central](https://www.manageengine.com/products/desktop-central/) (Multi platform MDM) (Paid)
-- [Zentral](https://github.com/zentralopensource/zentral) Allows you to control Santa, Munk & osquery(Free/Paid)
+- [Zentral](https://github.com/zentralopensource/zentral) Allows you to control Santa, Munky & osquery(Free/Paid)
 - [Rudolph](https://github.com/airbnb/rudolph) A Santa backend (Free)
 - [Nudge](https://github.com/macadmins/nudge) - A tool for encouraging the installation of macOS security updates (free)
 - [osquery](https://www.osquery.io/) Tool to query OS for interesting data (Free)

@@ -20,6 +20,7 @@
 ## Tools & Resources
 
 - [Wazuh](https://wazuh.com/) (Free/Paid)
+- [OpenEDR](https://github.com/ComodoSecurity/openedr) (Free)
 - [CrowdStrike](https://www.crowdstrike.com/) (Paid)
 - [Carbon Black](https://www.carbonblack.com/) (Paid)
 - [SentinelOne](https://www.sentinelone.com/) (Paid)
