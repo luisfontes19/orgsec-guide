@@ -17,33 +17,33 @@ The following image demonstrates an example of how to achieve this:
 
 ## Outcome
 
-- [ ] Implement a WAF in front of all web traffic
-- [ ] Block known attacks like sql injection, xss, or specific CVEs
-- [ ] Rate limits are in place, and sensitive endpoints have stricter limits
-- [ ] Scanners and bots are detected and blocked as needed
-- [ ] DDoS Protection in place
-- [ ] Rule changes are monitored and audited
-- [ ] Captchas are presented to users when bot activity is suspected
-- [ ] Security headers are injected by the WAF
+* [ ] Implement a WAF in front of all web traffic
+* [ ] Block known attacks like sql injection, xss, or specific CVEs
+* [ ] Rate limits are in place, and sensitive endpoints have stricter limits
+* [ ] Scanners and bots are detected and blocked as needed
+* [ ] DDoS Protection in place
+* [ ] Rule changes are monitored and audited
+* [ ] Captchas are presented to users when bot activity is suspected
+* [ ] Security headers are injected by the WAF
 
 ## Metrics
 
-- [ ] Number of requests blocked
-- [ ] Percentage of traffic served
-- [ ] Endpoints/Servers with the most blocked requests
-- [ ] Bot verification requests
-- [ ] Scans/Attacks detected and blocked
+* [ ] Number of requests blocked
+* [ ] Percentage of traffic served
+* [ ] Endpoints/Servers with the most blocked requests
+* [ ] Bot verification requests
+* [ ] Scans/Attacks detected and blocked
 
 ## Tools & Resources
 
-- [CloudFlare](https://www.cloudflare.com/) (Paid)
-- [AWS WAF](https://aws.amazon.com/waf/) (Paid)
-- [Akamai](https://www.akamai.com/) (Paid)
-- [Imperva](https://www.imperva.com/) (Paid)
-- [DataDome](https://datadome.co/) (Paid)
-- [Awesome Waf](https://github.com/0xInfection/Awesome-WAF) (Free)
-- [Cloudflare-WAF-Expressions](https://github.com/sefinek/Cloudflare-WAF-Expressions) (Free)
+* [CloudFlare](https://www.cloudflare.com/) (Paid)
+* [AWS WAF](https://aws.amazon.com/waf/) (Paid)
+* [Akamai](https://www.akamai.com/) (Paid)
+* [Imperva](https://www.imperva.com/) (Paid)
+* [DataDome](https://datadome.co/) (Paid)
+* [Awesome Waf](https://github.com/0xInfection/Awesome-WAF) (Free)
+* [Cloudflare-WAF-Expressions](https://github.com/sefinek/Cloudflare-WAF-Expressions) (Free)
 
 ## Further Reading
 
-- [When WAFs Go Awry: Common Detection & Evasion Techniques for Web Application Firewalls](https://www.mdsec.co.uk/2024/10/when-wafs-go-awry-common-detection-evasion-techniques-for-web-application-firewalls)
+* [When WAFs Go Awry: Common Detection & Evasion Techniques for Web Application Firewalls](https://www.mdsec.co.uk/2024/10/when-wafs-go-awry-common-detection-evasion-techniques-for-web-application-firewalls)

@@ -50,6 +50,8 @@ By using scorecards, organizations can make informed decisions about which depen
 - [Aikido's Intel](https://github.com/AikidoSec/intel)
 - [Aikido's Zen Firewall](https://github.com/AikidoSec/firewall-python). Link for pythong, but available for multiple languages (Free)
 - [Heisenberg](https://github.com/AppOmni-Labs/heisenberg-ssc-health-check) - Analyzes software dependencies across GitHub repositories to identify security vulnerabilities and health risks in your supply chain. (Free)
+- [Aikido safe-chain](https://github.com/AikidoSec/safe-chain) (Free)
+- [Open Source Malware Database](http://opensourcemalware.com/) (Free)
 
 ## Further Reading
 
@@ -60,3 +62,4 @@ By using scorecards, organizations can make informed decisions about which depen
 - [[A Step-by-step Guide to Preventing Dependency Confusion Attacks](https://www.jit.io/blog/preventing-dependency-confusion-attacks)]
 - [Data about all known supply-chain attacks through history](https://github.com/tstromberg/supplychain-attack-data)
 - [Mitigating supply chain attacks](https://pnpm.io/supply-chain-security) Simple feature from pnpm to help mitigate supply chain attacks
+- [Open Source Software Supply Chain Security¶](https://sscsecurity.dev/) - A comprehensive guide to understanding, protecting, and governing the open source software supply chain.

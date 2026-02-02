@@ -35,6 +35,7 @@ Ultimately, it is essential to consider the impact of MDM solutions on both user
 ## Tools & Resources
 
 - [Jamf](https://www.jamf.com/) (Paid)
+- [Fleet](https://github.com/fleetdm/fleet) MDM (Free/Paid)
 - [Kandji](https://www.kandji.io/) (Paid)
 - [JumpCloud](https://jumpcloud.com/) (Paid)
 - [ScaleFusion](https://scalefusion.com/mobile-device-management) (Paid)
@@ -42,7 +43,6 @@ Ultimately, it is essential to consider the impact of MDM solutions on both user
 - [Santa](https://github.com/northpolesec/santa) - A tool to allow or block applications and files access for macOS (Free)
 - [Munki](https://www.munki.org/munki/) - A tool to manage software installation and updates for macOS (Free)
 - [Gorilla](https://github.com/1dustindavis/gorilla) - Similar to Munki, for Windows (Free)
-- [Fleet](https://github.com/fleetdm/fleet) MDM (Free)
 - [Elevate24](https://github.com/Jigsaw24/Elevate24) - Tool to require temporary admin access for MacOS (Free/Paid)
 - [Manage Engine's Endpoint Central](https://www.manageengine.com/products/desktop-central/) (Multi platform MDM) (Paid)
 - [Zentral](https://github.com/zentralopensource/zentral) Allows you to control Santa, Munky & osquery(Free/Paid)

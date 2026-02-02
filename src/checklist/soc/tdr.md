@@ -10,11 +10,12 @@ Ultimately, the choice between SIEM and MDR should be based on the organizationâ
 
 ## Outcome
 
-- [ ] Playbooks are created to guide incident response for various threat types.
-- [ ] A platform is in place to enable threat detection and response.
-- [ ] SLAs are defined for detection and response timelines.
-- [ ] Alerts from the platform are actively monitored and addressed.
+- [ ] Data & Logs from multiple platforms (Cloud, Endpoint, Network, Applications, etc) are aggregated into a central location.
+- [ ] Rules are created to alert on common threat patterns (e.g., lateral movement, privilege escalation, data exfiltration) and any other relevant warnings
 - [ ] Detection rules are continuously tuned to improve alert accuracy and reduce false positives.
+- [ ] Alerts from the platform are actively monitored and addressed.
+- [ ] Playbooks are created to guide incident response for various threat types.
+- [ ] SLAs are defined for detection and response timelines.
 - [ ] Regular simulation attacks are conducted to test and improve detection and response processes.
 - [ ] Analysts have access to sufficient data and context to investigate alerts efficiently.
 - [ ] A formal post-mortem process is followed after each significant incident.
@@ -51,3 +52,4 @@ Ultimately, the choice between SIEM and MDR should be based on the organizationâ
 - [Automatic Response: the Iron Dome!](https://www.linkedin.com/pulse/automatic-response-iron-dome-jorge-o-higgins-sfakf)
 - [Delegate Security Remediation to Employees to employees](https://mayakaczorowski.com/blogs/slacksecops)
 - [KC7](https://kc7cyber.com/) - The free cyber detective game
+- [Multi-Cloud Detection at Scale: A Normalization Framework](https://cloudnativedetection.substack.com/p/multi-cloud-detection-at-scale-a)

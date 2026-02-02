@@ -9,6 +9,7 @@
 
 ## Tools & Resources
 
+- [https://apisecuritychampion.com/](https://apisecuritychampion.com/) (Free)
 - [Secure Code Game](https://github.com/skills/secure-code-game) (Free)
 - [Owasp Secure Coding Practices](https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/stable-en/01-introduction/05-introduction) (Free)
 - [Codebashing](https://www.codebashing.com/) (Paid)

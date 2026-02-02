@@ -15,6 +15,7 @@
 - [ ] [Secure Defaults](./product-security/secure-defaults.md)
 - [ ] Standard Container Images
 - [ ] [Supply Chain & Management](grc/supply-chain.md)
+- [ ] [Secure Development Environment](./product-security/secure-development-environment.md)
 
 **Endpoint Security**
 
@@ -56,7 +57,7 @@
 - [ ] [Secret scans](./devsecops/secrets-scans.md)
 - [ ] [SCA scans](./devsecops/sca-scans.md)
 - [ ] [Container Scanning](./devsecops/container-scanning.md)
-- [ ] Secure deployments
+- [ ] [Secure deployments](./devsecops/secure-deployments.md)
 - [ ] [SBOMs](./devsecops/sboms.md)
 - [ ] [Secure the SCM Platform](./devsecops/secure-the-scm-platform.md)
 
@@ -70,7 +71,7 @@
 
 **Secure Operations**
 
-- [ ] [Threat Detection & Response (TDR)](./soc/tdr.md)
+- [ ] [SIEM & Threat Detection & Response (TDR)](./soc/tdr.md)
 - [ ] Incident Response
 
 **General OpSec**

@@ -34,6 +34,7 @@ SAST tools vary in their ability to support different programming languages and 
 - [Github Code Scanning](https://docs.github.com/en/code-security/code-scanning) (Free/Paid)
 - [Snyk Code](https://snyk.io/product/snyk-code/) (Paid)
 - [Pentest Ground](https://pentest-ground.com/) Lists of vulnerable apps for tests (Free)
+- [Gixy-Next](https://github.com/MegaManSec/Gixy-Next) (Free)
 
 ## Further Reading
 

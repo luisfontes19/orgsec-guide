@@ -3,5 +3,7 @@
     "MD007": false,
     "MD024": false,
     "no-hard-tabs": false,
-    "line-length": false
+    "line-length": false,
+    "MD060": false,
+    "MD059": false
 }

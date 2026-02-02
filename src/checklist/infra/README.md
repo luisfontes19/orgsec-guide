@@ -12,6 +12,7 @@
 - [CloudGoat](https://github.com/RhinoSecurityLabs/cloudgoat) (Free)
 - [CloudSecurityWiki](https://cloudsecwiki.com/) (Free)
 - [Threat Technique Catalog for AWS](https://aws-samples.github.io/threat-technique-catalog-for-aws/) (Free)
+- [PathFinding](https://pathfinding.cloud/) - Understand, Detect & Demonstrate AWS IAM Privilege Escalation (Free)
 
 ## Further Reading
 
