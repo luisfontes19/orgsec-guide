@@ -15,6 +15,7 @@ A prevention option lies in implementing dedicated, secure development environme
 - [ ] Isolated environments are used for development, like [DevContainers](https://containers.dev/)
 - [ ] Installed packages are monitored for vulnerabilities and supply chain risks
 - [ ] Development tools like IDEs, extensions and AI tools are standardized and vetted for security risks
+  - [ ] Monitor or block usage of unapproved extensions, plugins and AI tools (including MCP servers)
 - [ ] Developers are trained to recognize social engineering attacks targeting development environments
 - [ ] SSH keys are protected with hardware security modules (HSMs) or equivalent solutions
 - [ ] Secure package manager settings like delayed dependency updates are enforced in all projects

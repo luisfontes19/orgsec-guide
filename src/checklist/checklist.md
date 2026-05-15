@@ -21,7 +21,8 @@
 
 - [ ] [MDM](./endpoint-security/mdm.md)
 - [ ] [Endpoint Detection and Response (EDR)](./endpoint-security/endpoint-detection-response.md)
-- [ ] [Phishing Strategy](./endpoint-security/phishing-strategy.md)
+- [ ] [Phishing Prevention](./endpoint-security/phishing-strategy.md)
+- [ ] [Shadow Apps](./endpoint-security/shadow-apps.md)
 
 **Governance, Risk and Compliance**
 
@@ -83,7 +84,7 @@
 
 **AI**
 
+- [ ] [Shadow AI](./ai/shadow-ai.md)
 - [ ] [AI Agents](./ai/agents.md)
-- [ ] [Secure MCP Servers](./ai/mcp_servers.md)
 
 <!-- markdownlint-enable MD036 -->

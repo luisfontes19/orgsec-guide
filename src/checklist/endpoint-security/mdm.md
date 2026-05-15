@@ -21,8 +21,8 @@ Ultimately, it is essential to consider the impact of MDM solutions on both user
 - [ ] There's a defined process to quarantine devices
 - [ ] Alerts are monitored and acted upon
 - [ ] There's a self serve way for users to gain admin access to the devices so they manage it as needed
-- [ ] Applications usage is restricted
-- [ ] There's a way for users to install applications for their needs, based on a pre-approved list
+- [ ] Applications usage is restricted based on a pre approved list
+- [ ] There's a way for users to install and update applications for their needs, based on a pre-approved list
 
 ## Metrics
 
@@ -41,6 +41,7 @@ Ultimately, it is essential to consider the impact of MDM solutions on both user
 - [ScaleFusion](https://scalefusion.com/mobile-device-management) (Paid)
 - [IMazing Profile Editor](https://imazing.com/profile-editor) - GUI tool to help generating MacOS profiles (Free)
 - [Santa](https://github.com/northpolesec/santa) - A tool to allow or block applications and files access for macOS (Free)
+- [ThreatLocker](https://www.threatlocker.com/) - A tool to allow or block applications and files access for Windows & MacOS (Paid)
 - [Munki](https://www.munki.org/munki/) - A tool to manage software installation and updates for macOS (Free)
 - [Gorilla](https://github.com/1dustindavis/gorilla) - Similar to Munki, for Windows (Free)
 - [Elevate24](https://github.com/Jigsaw24/Elevate24) - Tool to require temporary admin access for MacOS (Free/Paid)

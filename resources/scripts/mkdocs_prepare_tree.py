@@ -57,6 +57,7 @@ with open(mkfile_path, "r") as mkfile:
 
     chapters = checklist_chapters()
     mkdocs_content["nav"].append({"Checklist": "checklist/checklist.md"})
+    mkdocs_content["nav"].append({"Risk Matrix": "checklist/risk-matrix.md"})
     chapters_sections = []
 
     # for each chapter

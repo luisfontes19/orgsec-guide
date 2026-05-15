@@ -1,4 +1,4 @@
-# Phishing Strategy
+# Phishing Prevention
 
 One of the most common ways organizations are compromised today is through social engineering, where attackers exploit human behavior rather than technical vulnerabilities. A prevalent form of this is phishing, where users are tricked into clicking malicious links or downloading harmful attachments, often disguised as legitimate communications.
 
