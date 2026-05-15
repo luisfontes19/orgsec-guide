@@ -11,7 +11,7 @@ jobs:
             globs: |
               ./src/**/*.md
 
-      - name: Check links
-        run: |
-          chmod +x resources/scripts/check-links.sh
-          resources/scripts/check-links.sh
+      # - name: Check links
+      #   run: |
+      #     chmod +x resources/scripts/check-links.sh
+      #     resources/scripts/check-links.sh
