@@ -10,23 +10,24 @@ Check out the project website [here](https://luisfontes19.github.io/orgsec-guide
 
 ## For local development
 
+Common commands are wrapped in [Taskfile.yml](./Taskfile.yml). Install [Task](https://taskfile.dev/) and run `task` to see the full list.
+
 ### Check markdown
 
 ```bash
-markdownlint-cli2 "src/**/*.md"
+task lint
 ```
 
 ### Fix markdown issues
 
 ```bash
-markdownlint-cli2 "src/**/*.md" --fix
+task lint:fix
 ```
 
 ### Check markdown links
 
 ```bash
-chmod +x resources/scripts/check-links.sh
-resources/scripts/check-links.sh
+task check-links
 ```
 
 <!-- ### Generate pdf
@@ -40,12 +41,10 @@ resources/scripts/generate-pdf.sh
 
 ### Generate and run local website
 
-```bash
-chmod +x resources/scripts/mkdocs-config.sh
+The `serve` task regenerates the mkdocs nav tree (needed when files are added, removed or renamed) and starts the local server.
 
-## This file will generate the tree, so if you change file names or locations or add/remove files you may want to run this script again
-./resources/scripts/mkdocs-config.sh
-mkdocs serve -f resources/mkdocs.yml  -w src
+```bash
+task serve
 ```
 
 ## License

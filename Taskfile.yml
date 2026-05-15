@@ -1,0 +1,33 @@
+# yaml-language-server: $schema=https://taskfile.dev/schema.json
+
+version: '3'
+
+tasks:
+  default:
+    desc: List available tasks
+    cmds:
+      - task --list
+    silent: true
+
+  lint:
+    desc: Lint markdown files
+    cmds:
+      - markdownlint-cli2 "src/**/*.md"
+
+  lint:fix:
+    desc: Lint markdown files and auto-fix issues
+    cmds:
+      - markdownlint-cli2 "src/**/*.md" --fix
+
+  check-links:
+    desc: Check markdown links
+    cmds:
+      - chmod +x resources/scripts/check-links.sh
+      - resources/scripts/check-links.sh
+
+  serve:
+    desc: Regenerate the mkdocs nav and run the local website
+    cmds:
+      - chmod +x resources/scripts/mkdocs-config.sh
+      - ./resources/scripts/mkdocs-config.sh
+      - mkdocs serve -f resources/mkdocs.yml -w src
