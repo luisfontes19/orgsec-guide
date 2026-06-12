@@ -84,7 +84,6 @@
 
 **AI**
 
-- [ ] [Shadow AI](./ai/shadow-ai.md)
-- [ ] [AI Agents](./ai/agents.md)
+- [ ] [AI Governance](./ai/ai-governance.md)
 
 <!-- markdownlint-enable MD036 -->

@@ -27,6 +27,7 @@
 - [Access](https://github.com/discord/access) - Tool for access requests & management  (Free)
 - [RepoKid](https://github.com/Netflix/repokid) - Tool to help maintain least privilege permissions in AWS (Free)
 - [Opal](https://www.opal.dev/) - Tool for access requests & management (Paid)
+- [C1 Access Reviews](https://www.c1.ai/products/access-reviews) (Paid)
 
 ## Further Reading
 

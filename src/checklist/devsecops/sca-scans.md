@@ -33,6 +33,7 @@ To ensure comprehensive security coverage, it's important to assess and address 
 - [OWASP Dependency Track](https://dependencytrack.org/) Tool to manage dependencies (Free)
 - [Datadog's malicious-software-packages-dataset](https://securitylabs.datadoghq.com/articles/introducing-supply-chain-firewall/) (Free)
 - [Snyk SCA](https://snyk.io/product/open-source-security-management/) (Free/Paid)
+- [Grype](https://github.com/anchore/grype) (Free)
 
 ## Further Reading
 
