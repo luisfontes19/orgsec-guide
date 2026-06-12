@@ -32,6 +32,7 @@ A prevention option lies in implementing dedicated, secure development environme
 - [Aikido Safechain](https://github.com/AikidoSec/safe-chain) - Hooks into NPM/PyPI register calls to analyze and block malicious packages being installed (Free)
 - [Wiz's SDLC Infrastructure Threat Framework](https://wiz-sec-public.github.io/SITF/) (Free)
 - [VSCode Watchtower](https://marketplace.visualstudio.com/items?itemName=luisfontes19.watchtower) (Free)
+
 ## Further Reading
 
 - [IDEsaster: A Novel Vulnerability Class in AI IDEs](https://maccarita.com/posts/idesaster/)
