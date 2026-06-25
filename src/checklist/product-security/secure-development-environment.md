@@ -22,6 +22,7 @@ A prevention option lies in implementing dedicated, secure development environme
 - [ ] [EDR](../endpoint-security/endpoint-detection-response.md) solutions are deployed on developer workstations
 - [ ] Ensure production secrets are never stored or used in development environments
 - [ ] [Invisible characters](https://www.promptfoo.dev/blog/invisible-unicode-threats/) are detected in source code and dependencies to prevent supply chain attacks
+- [ ] Dependency Firewall is implemented to prevent usage of dependencies that have been flagged as malicious or vulnerable
 
 ## Metrics
 

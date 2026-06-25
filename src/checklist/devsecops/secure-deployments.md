@@ -20,6 +20,9 @@
 ## Tools & Resources
 
 - [OpenPolicyAgent](https://www.openpolicyagent.org/) (Free)
+- [Falco](https://github.com/falcosecurity/falco) - Protect your deployment containers (Free)
+- [Harden Runner](https://github.com/step-security/harden-runner) (Free/Paid)
+
 
 ## Further Reading
 
@@ -29,3 +32,4 @@
 - [Continuous Deployment at Lyft](https://eng.lyft.com/continuous-deployment-at-lyft-9b457314771a)
 - [Monocle: How Chime creates a proactive security & engineering culture (Part 1)](https://medium.com/life-at-chime/monocle-how-chime-creates-a-proactive-security-engineering-culture-part-1-dedd3846127f)
 - [Shifting left at enterprise scale: how we manage Cloudflare with Infrastructure as Code](https://blog.cloudflare.com/shift-left-enterprise-scale/)
+- [GitHub Actions Security Checklist for Supply Chain Attacks](https://corgea.com/learn/github-actions-security-checklist)

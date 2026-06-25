@@ -31,6 +31,7 @@ Once these discussions take place, it’s the responsibility of the security tea
 
 - [AWS Threat Composer](https://awslabs.github.io/threat-composer) (Free)
 - [ThreatDragon](https://www.threatdragon.com/) (Free)
+- [OWASP ThreatAtlas](https://github.com/OWASP/www-project-threatatlas) (Free)
 - [Microsoft Threat Modeling Tool](https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool) (Free)
 - [Gram](https://github.com/klarna-incubator/gram/) (Free)
 - [ThreatGPT](https://github.com/mrwadams/stride-gpt) (Free)

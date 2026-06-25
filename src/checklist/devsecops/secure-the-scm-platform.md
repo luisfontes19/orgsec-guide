@@ -27,3 +27,4 @@
 - [Enforcing device trust [and commit signatures] on code changes](https://www.figma.com/blog/how-we-enforce-device-trust-on-code-changes/)
 - [Mitigating Attack Vectors in GitHub Workflows](https://openssf.org/blog/2024/08/12/mitigating-attack-vectors-in-github-workflows)
 - [GitHub Actions: A Cloudy Day for Security - Part 1](https://binarysecurity.no/posts/2025/08/securing-gh-actions-part1)
+- [GitHub Actions Security Checklist for Supply Chain Attacks](https://corgea.com/learn/github-actions-security-checklist?)

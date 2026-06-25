@@ -28,6 +28,7 @@ By using scorecards, organizations can make informed decisions about which depen
 - [ ] [SBOM](../devsecops/sboms.md)'s are generated and processed
 - [ ] Controls to prevent (if applicable) dependency confusion are in place
 - [ ] Restrict usage of new versions of dependencies that have been published in the past X days
+- [ ] Dependency Firewall is implemented to prevent usage of dependencies that have been flagged as malicious or vulnerable
 
 ## Metrics
 
