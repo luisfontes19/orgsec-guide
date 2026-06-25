@@ -23,7 +23,6 @@
 - [Falco](https://github.com/falcosecurity/falco) - Protect your deployment containers (Free)
 - [Harden Runner](https://github.com/step-security/harden-runner) (Free/Paid)
 
-
 ## Further Reading
 
 - [FacetController: How we made infrastructure changes at Lyft simple](https://eng.lyft.com/facetcontroller-how-we-made-infrastructure-changes-at-lyft-simple-dab49f5b27c7)
